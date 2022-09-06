@@ -62,5 +62,20 @@ grid-auto-flow: dense;
 
 .grid-img:hover
 {
-  transform: scale(1.2); /*картинка увеличивается при наведении*/
+  transform: scale(1.2); 
+}
+
+#nature-3,
+#nature-5,
+/*#nature-7,*/
+/*#nature-10,*/
+#nature-15 {
+  grid-column: span 2;
+}
+
+#nature-1, 
+/*#nature-11,*/
+#nature-16,
+#nature-18 {
+  grid-row: span 2;
 }
