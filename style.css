@@ -25,3 +25,14 @@ overflow-y: scroll;
 padding-right: 10px;
 grid-auto-flow: dense;
 }
+
+#grid ::-webkit-scrollbar
+{
+  background-color: #dedede;
+  width: 10px;
+}
+
+#grid::-webkit-scrollbar-thumb
+{
+  background-color: #757575;
+}
