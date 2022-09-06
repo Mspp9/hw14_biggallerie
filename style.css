@@ -53,8 +53,14 @@ grid-auto-flow: dense;
   transition: transform 0.2 ease;
 }
 
-.grid-item:hover
+.grid-item:hover /*работа с анимацией при наведении*/
 {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  z-index: 2;
+}
+
+.grid-img:hover
+{
+  transform: scale(1.2); /*картинка увеличивается при наведении*/
 }
